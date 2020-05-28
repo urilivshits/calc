@@ -1,0 +1,242 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "calibri", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    background-color: #ffd091;
+    background: url("https://cdn.hipwallpaper.com/m/96/50/TJfwDN.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.container {
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    flex: 0 0 30%;
+    padding: 2rem;
+    border-radius: 7px;
+    background: black;
+
+
+}
+
+.btns  {
+
+    width: 20%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+    outline: none;
+    flex-grow: 1;
+
+}
+
+.btns:hover {
+    opacity: 0.8;
+    
+}
+
+.btns:focus {
+    box-shadow: 0 0 10px black;
+
+}
+
+.btn-grey {
+    background-color: #23262b;
+    color: white;
+}
+
+.btn-yellow {
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+.btn-light-grey {
+    background-color: darkgray;
+}
+
+.screen {
+
+    width: 90%;
+    padding: 0.5rem;
+    padding-bottom: 1rem;
+    margin: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 30px;
+    font-size: 60px;
+    color: white;
+    background-color: black;
+    border: none;
+    order: 1;
+    direction: rtl;
+    font-weight: bold;
+
+}
+
+.btnAc {
+    order: 2;
+}
+
+.btn-plus-minus {
+    order: 3;
+}
+
+.btn-percent {
+    order: 4;
+}
+
+.btnDivide {
+    order: 5;
+}
+
+.btn7 {
+    order: 6;
+}
+
+.btn8 {
+    order: 7;
+}
+
+.btn9 {
+    order: 8;
+}
+
+.btnMultiply {
+    order: 9;
+}
+
+.btn4 {
+    order: 10;
+}
+
+.btn5 {
+    order: 11;
+}
+
+.btn6 {
+    order: 12;
+}
+
+.btnMinus {
+    order: 13;
+}
+
+.btn1 {
+    order: 14;
+}
+
+.btn2 {
+    order: 15;
+}
+
+.btn3 {
+    order: 16;
+}
+
+.btnPlus {
+    order: 17;
+}
+
+.btn0 {
+    width: 45%;
+    order: 18;
+    
+}
+
+.btnDot {
+    order: 19;
+}
+.btn-equal {
+   order: 20; 
+}
+
+@media only screen and (max-width: 414px) {
+        
+body {
+        
+        
+        background: none;
+        background-color: black;
+        margin: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "calibri", sans-serif;
+        font-weight: 400;
+        text-align: center;
+        background-repeat: no-repeat;
+        min-height: 98vh;
+        
+    }
+
+.container {
+    
+        display: flex;
+        flex-wrap: wrap;
+        
+        height: 98vh;
+        flex: 100%;
+        padding: 0rem;
+        border-radius: 7px;
+        background: black;
+    
+    
+}
+    
+.screen {
+
+    width: 90%;
+    padding: 0.5rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+    height: 28%;
+    border-radius: 30px;
+    font-size: 80px;
+    color: white;
+    background-color: black;
+    border: none;
+    order: 1;
+    direction: rtl;
+    font-weight: bold;
+    display: flex;
+    align-self: flex-end;
+    
+    
+
+}
+
+.btns  {
+
+    width: 20%;
+    padding: 0.5rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin: 0.5rem;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+    outline: none;
+    flex-grow: 1;
+
+}
+
+.btn0 {
+    width: 45%;
+    order: 18;
+   
+}
+
+
+}
